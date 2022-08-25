@@ -1,0 +1,11 @@
+mySet = {1, 34, 53}
+mySet.add(45)
+mySet.add("1")
+print(mySet)
+mySet.remove(34)
+print(mySet)
+print(mySet.pop())
+print(mySet)
+print(len(mySet))
+print(mySet.union({8, 53}))
+print(mySet.intersection({8, 53}))
